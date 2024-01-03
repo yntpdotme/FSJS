@@ -10,3 +10,5 @@
 ### [5. Name Conversion](./NameConversion/)
 
 ### [6. Rock Paper Scissor](./RockPaperScissor/)
+
+### [7. Password Generator](./PasswordGenerator/)
