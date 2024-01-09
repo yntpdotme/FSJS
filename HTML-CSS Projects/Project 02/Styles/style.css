@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose";
+}
+body {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(11, 11, 54, 0.549),
+      rgba(11, 11, 54, 0.549)
+    ),
+    url("../Images/1.png");
+  overflow: hidden;
+  background-size:cover;
+}
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.2em;
+}
+.list {
+  list-style: none;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 40vw;
+  height: 6vh;
+  color: rgb(216, 193, 12);
+}
+
+.button-small {
+  background-color: rgb(228, 70, 70);
+  padding: 0.5em 1.5em;
+  font-weight: 400;
+  font-size: 1em;
+  margin-right: 3em;
+  color: #ffffff;
+  border: none;
+}
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 65vw;
+  height: 70vh;
+  margin: 0.7em auto;
+}
+.hero-heading {
+  font-family: "Dela Gothic One";
+  font-size: 5em;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.2em;
+  color: rgb(216, 193, 12);
+}
+.bottom {
+  position: absolute;
+  height: 1.8em;
+  bottom: 10em;
+  right: 3em;
+}
+.button-large {
+  background-color: rgb(228, 70, 70);
+  border: none;
+  margin-top: 2em;
+  margin-right: 1em;
+  padding: 0.8em;
+  width: 25%;
+  height: 12%;
+  font-size: 1.1em;
+  font-weight: 700;
+  color: #ffffff;
+}
