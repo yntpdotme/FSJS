@@ -1,0 +1,194 @@
+/* POPPINS FONT FAMILY */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body {
+    min-width: 100%;
+    min-height: 100vh;
+    background-color: hsl(47, 12%, 15%);
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html:focus-within {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+.container {
+    margin-inline: 6rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.logo {
+    width: 12rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list .nav-list-items {
+    margin-right: 8rem;
+    font-size: 2rem;
+}
+
+.btn {
+    padding: 1rem 2rem;
+    border: 1px solid #a08f36;
+    color: #a08f36;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #a08f36;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.content-left {
+    flex: 1;
+}
+
+.content-left h1 {
+    font-size: 8rem;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.content-right {
+    flex: 1;
+}
+
+.content-right p {
+    font-size: 1.5rem;
+    line-height: 2;
+    letter-spacing: 0.2rem;
+    color: #fff;
+    padding: 0 13rem;
+}
+
+.img-bakground {
+    margin-top: 50px;
+    background-image: url("../Images/justice.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 25rem 0;
+}
+
+.icon {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.icon-left {
+    padding: 3.5rem;
+    background-color: #4d4b44;
+    position: relative;
+}
+
+.icon-left::after {
+    content: '<';
+    display: block;
+    font-size: 2.5rem;
+    width: 4rem;
+    height: 4rem;
+    text-align: center;
+    border-radius: 100px;
+    color: rgb(117, 117, 117);
+    background-color: transparent;
+    border: 1px solid rgb(150, 150, 150);
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+}
+
+.icon-right {
+    padding: 3.5rem;
+    border: 1px solid #a08f36;
+    background-color: #a08f36;
+    position: relative;
+}
+
+.icon-right::after {
+    content: '>';
+    display: block;
+    font-size: 2.5rem;
+    width: 4rem;
+    height: 4rem;
+    text-align: center;
+    border-radius: 100px;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+}
