@@ -1,0 +1,240 @@
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	-webkit-font-smoothing: antialiased;
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	color: #000;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	font-family: "Orbitron", sans-serif;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	transition: all 500ms ease-in-out;
+}
+
+.navbar-container {
+	position: relative;
+	margin: 50px auto;
+	width: 90%;
+}
+
+.logo {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.logo img {
+	width: 90%;
+}
+
+.list {
+	list-style: none;
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.list-item {
+	display: inline-block;
+	position: relative;
+	margin: 10px 30px;
+	font-size: 25px;
+	font-weight: 500;
+	letter-spacing: 0.5px;
+	transition: all 300ms ease;
+}
+
+.list-item::after {
+	content: "";
+	position: absolute;
+	background-color: #000;
+	height: 4px;
+	width: 0%;
+	left: 20%;
+	bottom: -5px;
+}
+
+.list-item:hover {
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.list-item:hover::after {
+	width: 60%;
+}
+
+.button-group {
+	display: flex;
+	justify-content: flex-end;
+	gap: 5px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 15%;
+	margin-top: 5px;
+}
+
+.search-icon {
+	margin-right: 15px;
+	margin-top: 15xp;
+}
+
+.nav-button {
+	font-size: 20px;
+	font-family: "Poppins", sans-serif;
+	padding: 2px 30px;
+	border: 2px solid #000;
+	border-radius: 10px;
+}
+
+.hero-container {
+	position: relative;
+	width: 90%;
+	margin: 100px auto;
+}
+
+.square {
+	position: absolute;
+	bottom: -10%;
+	left: 13%;
+	z-index: -1;
+}
+
+.star {
+	float: right;
+	margin-right: 6%;
+}
+
+.globe img {
+	position: absolute;
+	top: -5%;
+	left: 50%;
+}
+
+.hero-container-right {
+	position: absolute;
+	left: 40%;
+	top: 20%;
+	width: 60%;
+	text-align: center;
+	padding: 20px 50px;
+}
+
+.hero-heading {
+	font-size: 60px;
+	font-weight: 800;
+}
+
+.hero-description {
+	font-family: "Poppins", sans-serif;
+	font-size: 18px;
+	margin-top: 80px;
+	width: 80%;
+	margin: 60px auto;
+}
+
+.button-email,
+.button-join {
+	font-family: "Orbitron", sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	padding: 5px 15px;
+	border: 1.5px solid #000;
+	border-radius: 8px;
+	margin: 40px 10px;
+}
+
+button:hover {
+	transition: all 300ms ease;
+	background: #000;
+	color: #fff;
+}
+
+.contact-heading {
+	font-family: "Poppins", sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	margin: 80px 0 20px 0;
+}
+
+.icons span {
+	padding: 10px;
+}
+
+.icons img:hover {
+	transition: all 100ms ease-in;
+	box-shadow: 0 0 5px 3px #000;
+	border-radius: 50%;
+}
+
+.star2 img {
+	position: absolute;
+	left: 5%;
+	bottom: 5%;
+	width: 5%;
+}
+
+@media only screen and (max-width: 1400px) {
+	/* For laptops: */
+	.logo img {
+		width: 70%;
+	}
+
+	.list {
+		list-style: none;
+		width: 85%;
+		margin: 0 auto;
+		text-align: end;
+	}
+
+	.list-item {
+		margin: 10px 20px;
+		font-size: 20px;
+	}
+
+	.list-item:hover {
+		font-size: 24px;
+	}
+
+	.button-group {
+		margin-top: 0px;
+		width: 5%;
+	}
+
+	.search-icon {
+		width: 50%;
+		margin-right: 15px;
+		margin-top: 15xp;
+	}
+
+	.nav-button {
+		display: none;
+	}
+
+	.person-img{
+		display: flex;
+		justify-content: center;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	/* For Mobile and Tablets: */
+	.list {
+		display: none;
+	}
+}
