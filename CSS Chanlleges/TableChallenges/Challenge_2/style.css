@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower");
+
+* {
+  box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	-webkit-font-smoothing: antialiased;
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+  font-family: "Indie Flower", "verdana";
+  color:#000;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+body{
+  padding: 10px;
+}
+
+hr{
+  background-color: #000;
+  height: 4px;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 2px;
+  margin-top: 10px;
+}
+
+tr {
+  background: #97ffd5;
+  font-size: 25px;
+}
+
+th {
+  color: #e10a0a;
+  font-weight: bold;
+}
+
+th, td {
+  padding: 5px 10px;
+  text-align: center;
+}
+
+caption{
+  caption-side: bottom;
+  margin-top: 10px;
+  font-size: 1.5rem;
+}
+
+td[rowspan="2"]:last-of-type{
+  background-color: #81a9e2;
+}

@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+
+* {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	-webkit-font-smoothing: antialiased;
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	font-family: "Roboto", sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body{
+	background: -webkit-linear-gradient(45deg, #4DD637, #1B98F5);	
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.center{
+	background: #ffffff;
+	width: 450px;
+	height: 50vh;
+	border: 0;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 3em;
+}
+
+h1{
+	font-family: "Sansita Swashed";
+	font-size: 40px;
+	letter-spacing: 3px;
+	margin: 30px 0 40px 0;
+	position: relative;
+}
+
+h1::before{
+	content: "";
+	position: absolute;
+	left: -20px;
+	height: 50px;
+	width: 5px;
+	background-color: #1B98F5;
+}
+
+form{
+	width: 100%;
+}
+
+.inputbox {
+	padding: 1em 0;
+	position: relative;
+}
+
+input {
+	margin-top: 10px;
+	width: 100%;
+	height: 40px;
+	border: 2px solid #000000;
+	border-radius: 6px;
+}
+
+.inputbox input[type="button"]{
+	color: #ffffff;
+	margin-top: 20px;
+	width: 40%;
+	height: 40px;
+	background-color: #1B98F5;
+	border: 0;
+	border-radius: 8px;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+span{
+	position: absolute;
+  left: 0.6em;
+  top: 55%;
+  transform: translateY(-50%);
+}
