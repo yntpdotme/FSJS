@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600;700;900&display=swap");
+
+:root {
+	--cl-background: hsl(252, 26%, 96%);
+	--cl-black: hsl(0, 0%, 0%);
+	--cl-white: hsl(0, 0%, 100%);
+}
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+	font-size: 62.5%;
+}
+
+body {
+	font-family: "Montserrat", "Abel", sans-serif;
+	background-color: var(--cl-background);
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+#navbarMonstera {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2rem 4rem 0 4rem;
+}
+
+#navMid {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#navMid div:not(:first-of-type) {
+	margin-left: 8rem;
+}
+
+#navMid div h4 {
+	font-size: 2rem;
+	font-weight: 400;
+}
+
+#navMid div h4:hover {
+	font-size: 2rem;
+	font-weight: 600;
+	border-bottom: 2px solid var(--cl-black);
+}
+
+#navEnd {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#navEnd div:not(:last-of-type) {
+	margin-right: 4rem;
+}
+
+#navEnd div img {
+	width: 1.5rem;
+}
+
+#navEnd div img:hover {
+	width: 2.2rem;
+}
+
+#midWhole {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#midWholePart11 ul {
+	display: flex;
+	flex-direction: column;
+	justify-items: center;
+	padding-left: 4em;
+}
+
+#midWholePart11 ul li:not(:first-of-type) {
+	font-size: 1.5rem;
+	letter-spacing: 1.2;
+	line-height: 1.5;
+}
+
+#monstera {
+	font-size: 10rem;
+	font-weight: 700;
+}
+
+#midWholePart12 {
+	margin-top: 3rem;
+	margin-left: 5rem;
+	display: flex;
+	align-items: center;
+}
+
+#midWholePart121 {
+	display: flex;
+	align-items: center;
+	padding: 0.9rem 3rem;
+	font-size: 1.2rem;
+	font-weight: 400;
+	background-color: #466d50;
+	color: var(--cl-white);
+	border-radius: 40px;
+	cursor: pointer;
+}
+
+#midWholePart122 img {
+	width: 1.2rem;
+	margin-left: 1.2rem;
+}
+
+
+#midWholePart13 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 13rem;
+	margin-left: 6rem;
+}
+
+
+.midWholePart13Parts {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.midWholePart13Parts:not(:first-of-type) {
+	padding-left: 4rem;
+}
+
+.midWholePart13Parts div:not(:first-of-type) {
+	margin-left: 1.5rem;
+}
+
+.midWholePart13Parts div > h4 {
+	font-size: 2.5rem;
+}
+
+.midWholePart13Parts div > p {
+	font-size: 1.2rem;
+}
+
+#imgMain{
+	background-size: cover;
+	min-height: 100vh;
+}
