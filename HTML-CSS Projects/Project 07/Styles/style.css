@@ -1,0 +1,337 @@
+:root {
+	--cl-white: hsl(0, 0%, 100%);
+	--cl-black: hsl(0, 0%, 0%);
+	--cl-grey: hsl(0, 0%, 46%);
+	--cl-primarly: hsl(12, 99%, 60%);
+	--cl-secondry: hsl(50, 97%, 50%);
+
+	--ff-one: "Fredoka One", sans-serif;
+	--ff-two: "Poppins", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+	font-size: 62.5%;
+	overflow-x: hidden;
+}
+
+body {
+	min-width: 100%;
+	min-height: 100vh;
+	font-family: var(--ff-two);
+	line-height: 1.5;
+}
+
+img {
+	max-width: 100%;
+}
+
+ul[role="list"] {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+button {
+	background-color: transparent;
+	border: none;
+	outline: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	html:focus-within {
+		scroll-behavior: auto;
+	}
+
+	*,
+	*::before,
+	*::after {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+		scroll-behavior: auto !important;
+	}
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2rem 5rem;
+	z-index: +11;
+}
+
+.nav-logo {
+	width: 8rem;
+}
+
+.nav-items {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav-item {
+	font-size: 1.8rem;
+	font-family: var(--ff-two);
+	font-weight: light;
+	margin-right: 4rem;
+}
+
+.nav-item:hover {
+	color: var(--cl-primarly);
+}
+
+.nav-item:first-child{
+  color: var(--cl-primarly);
+}
+
+.nav-icon {
+	width: 15rem;
+}
+
+.intro-section {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.left-section {
+	width: 90rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	padding-left: 5rem;
+}
+
+.left-section h3 {
+	font-size: 4rem;
+}
+
+.left-section h1 {
+	font-size: 7rem;
+	line-height: 1;
+	letter-spacing: 0.2rem;
+	font-weight: lighter;
+	font-family: var(--ff-one);
+  margin-bottom: 2rem;
+}
+
+.sub-headlines {
+	margin-left: 7rem;
+}
+
+.sub-headline {
+	font-size: 2.5rem;
+	font-weight: lighter;
+	vertical-align: middle;
+	text-transform: capitalize;
+}
+
+.sub-headline img {
+	width: 2rem;
+	background-color: var(--cl-primarly);
+	padding: 0.2rem;
+	border-radius: 50%;
+	margin-right: 0.7rem;
+}
+
+.text {
+	font-size: 1.5rem;
+	letter-spacing: 0.1rem;
+	line-height: 1.5;
+	padding-right: 25rem;
+	margin-top: 2.5rem;
+	color: var(--cl-grey);
+}
+
+.action-btns {
+	margin-top: 4rem;
+}
+
+.action-btn {
+	padding: 1.3rem 3rem;
+	background-color: var(--cl-primarly);
+	color: var(--cl-white);
+	font-size: 1.5rem;
+	border-radius: 60px;
+}
+
+.action-btn:not(:first-child) {
+	margin-left: 2rem;
+}
+
+.action-btn-right {
+	padding: 1.3rem 3rem;
+	background-color: var(--cl-primarly);
+	color: var(--cl-white);
+	font-size: 1.5rem;
+	border-radius: 60px;
+}
+
+.right-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0 5rem;
+	z-index: -1;
+}
+
+.headphone-div {
+	width: 100%;
+	position: relative;
+}
+
+.headphone-image {
+	width: 100%;
+}
+
+.discount {
+	position: absolute;
+	top: 58%;
+	left: -5%;
+}
+
+.discount-content {
+	position: absolute;
+	top: 67%;
+	left: 2.5%;
+	text-align: center;
+	color: var(--cl-white);
+}
+
+.discount-content h4 {
+	font-size: 1.5rem;
+}
+
+.discount-content h1 {
+	margin-top: -1rem;
+	font-size: 5rem;
+	font-weight: bold;
+	font-family: var(--ff-one);
+}
+
+.dots {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem;
+	z-index: +111;
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+.dot {
+	padding: 1rem;
+	border-radius: 3rem;
+}
+.dot:not(:first-child) {
+	margin-left: 2rem;
+}
+
+.yellow-dot {
+	background-color: var(--cl-secondry);
+}
+
+.tomato-dot {
+	background-color: var(--cl-primarly);
+}
+
+.black-dot {
+	background-color: var(--cl-black);
+}
+
+@media screen and (max-width: 900px) {
+	.intro-section {
+		flex-direction: column-reverse;
+		justify-content: center;
+		align-items: center;
+	}
+	.headphone-image {
+		width: 80%;
+	}
+	.left-section {
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		width: auto;
+	}
+	.left-section h3 {
+		font-size: 2.5rem;
+		margin-bottom: 2rem;
+	}
+
+	.left-section h1 {
+		font-size: 4rem;
+		margin-bottom: 2rem;
+	}
+
+	.sub-headlines {
+		text-align: left;
+		margin-left: 0;
+	}
+
+	.text {
+		text-align: center;
+		padding-right: 2rem;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	.nav-item {
+		display: none;
+	}
+
+	.left-section h3 {
+		font-size: 2rem;
+	}
+
+	.left-section h1 {
+		font-size: 3.5rem;
+	}
+
+	.headphone-image {
+		width: 30rem;
+	}
+
+	.discount {
+		width: 10rem;
+	}
+
+	.discount-content h4 {
+		font-size: 1rem;
+	}
+	.discount-content h1 {
+		font-size: 2.5rem;
+	}
+	.text {
+		font-size: 2rem;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.action-btns {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.action-btn {
+		margin-bottom: 2rem;
+	}
+	.action-btn:not(:first-child) {
+		margin-left: 0;
+	}
+}
