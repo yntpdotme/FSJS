@@ -60,3 +60,12 @@
 ![Project 7](./Project%2007/7.png)
 
 <br>
+
+<h3 align="center">
+
+[Project 8](./Project%2008/)
+</h3>
+
+![Project 8](./Project%2008/8.png)
+
+<br>
