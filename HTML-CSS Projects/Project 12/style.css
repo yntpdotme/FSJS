@@ -1,0 +1,425 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700;900&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Raleway", sans-serif;
+}
+li,
+.container {
+	max-width: 1500px;
+}
+.sec-01 p {
+	color: rgb(209, 210, 212);
+	font-weight: 500;
+	list-style: none;
+}
+p {
+	color: rgb(150, 151, 152);
+	font-weight: 500;
+	list-style: none;
+}
+
+/* nav starts here */
+header {
+	background-color: rgb(97 106 116);
+}
+header .container {
+	color: #ffffff;
+	padding: 2rem;
+	display: flex;
+	justify-content: space-between;
+  margin: 0 auto;
+}
+header .hamburger {
+	display: none;
+}
+nav {
+	width: 50%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.logo img {
+	width: 100px;
+}
+nav ul {
+	width: 60%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.btn {
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	background-color: transparent;
+	padding: 8px 15px;
+}
+/* nav ends here */
+
+/* first section */
+.sec-01 {
+	color: #ffffff;
+	background-color: rgb(97 106 116);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 10px;
+	height: 85vh;
+	flex-wrap: wrap;
+}
+.sec-01 .img {
+	width: 30%;
+	height: 70vh;
+	background: url("./assets/first.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+.sec-01 .right,
+.text-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 35%;
+	height: 70vh;
+}
+.sec-01 .right h1 {
+	font-size: 4rem;
+	padding: 5vh 0;
+}
+
+.sec-01 .input {
+	margin-top: 5vh;
+	padding: 5px 0 5px 10px;
+	background-color: #ffffff;
+}
+.sec-01 .input input {
+	border: none;
+	width: 60%;
+	height: 50px;
+	color: rgb(97 106 116);
+}
+.sec-01 i {
+	color: black;
+}
+.green-btn {
+	border: none;
+	width: 30%;
+	height: 40px;
+	background-color: rgba(68, 162, 58, 0.551);
+}
+
+/* Section 2 */
+.sec-02 {
+	color: black;
+}
+.heading {
+	font-size: 3em;
+	width: 51vw;
+	margin: 30px auto;
+	text-align: center;
+}
+table {
+	width: 80vw;
+	margin: 10px auto;
+	padding: 20px;
+}
+.sec-02 table th {
+	font-size: 2em;
+	font-weight: 700;
+	padding: 15px;
+	margin: 10px;
+}
+.sec-02 table tr {
+	font-weight: 500;
+	padding: 15px;
+	margin: 10px;
+}
+.sec-02 table tr td {
+	font-size: 1em;
+	font-weight: 700;
+	padding: 15px;
+	margin: 10px;
+	text-align: center;
+}
+
+.sec-02 .img-container {
+	width: 82vw;
+	height: 70vh;
+	margin: 0 auto;
+	background: url("./assets/second.jpg") no-repeat;
+	background-size: cover;
+}
+
+.sec-03 {
+	width: 82vw;
+	margin: 0 auto;
+}
+.sec-03 .card {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px;
+}
+
+.text-container h1 {
+	font-size: 2rem;
+	padding: 5vh 0;
+}
+.text-container p {
+	font-size: 1rem;
+	padding-bottom: 5vh;
+}
+.sec-03 .card-01 .img-container {
+	height: 70vh;
+	width: 35vw;
+	background: url("./assets/01.jpg") no-repeat center center;
+	background-size: cover;
+}
+.sec-03 .card-02 .img-container {
+	height: 70vh;
+	width: 35vw;
+	background: url("./assets/02.jpg") no-repeat center center;
+	background-size: cover;
+}
+.sec-03 .card-03 .img-container {
+	height: 70vh;
+	width: 35vw;
+	background: url("./assets/03.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+.sec-04 {
+	width: 82vw;
+	margin: 0 auto;
+	padding: 5px;
+}
+.sec-04 .btn {
+	margin: 0 45%;
+	width: 10vw;
+}
+.sec-04 .top {
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 10px;
+}
+.sec-04 .top p {
+	width: 45%;
+}
+.sec-04 .top h1 {
+	width: 30%;
+}
+.sec-04 .bottom {
+	display: flex;
+	justify-content: space-between;
+}
+.sec-04 .bottom .card {
+	width: 30%;
+	height: 90vh;
+}
+.sec-04 .bottom .card h1 {
+	font-size: 1.7em;
+	padding: 15px 0;
+}
+.sec-04 .bottom .card {
+	font-size: 0.8em;
+}
+.sec-04 .bottom .card-01 .team-img {
+	height: 78%;
+	background: url("./assets/creative-team-01.jpg") no-repeat center center;
+	background-size: cover;
+}
+.sec-04 .bottom .card-02 .team-img {
+	height: 78%;
+	background: url("./assets/creative-team-02.jpg") no-repeat center center;
+	background-size: cover;
+}
+.sec-04 .bottom .card-03 .team-img {
+	height: 78%;
+	background: url("./assets/creative-team-03.jpg") no-repeat center center;
+	background-size: cover;
+}
+footer {
+	margin-top: 30px;
+	background-color: black;
+	padding: 30px 5vw;
+	color: #ffffff;
+}
+footer .head {
+	border-bottom: 1px solid #ffffff;
+	margin-bottom: 30px;
+	padding-bottom: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+footer .head img{
+  width: 100px;
+}
+footer .head .social-media {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 25vw;
+}
+footer .head .social-media p {
+	background-color: rgba(176, 176, 182, 0.319);
+	border-radius: 20px;
+	padding: 3px;
+}
+footer .head .social-media i {
+	color: #ffffff;
+	margin: 5px;
+}
+footer .content {
+	display: flex;
+	justify-content: space-between;
+}
+footer .content h1 {
+	font-size: 1em;
+	margin: 20px;
+}
+footer .content li {
+	font-size: 0.9em;
+	margin: 20px;
+}
+footer .content .col {
+	height: 35vh;
+}
+
+/* Media query */
+@media screen and (max-width: 850px) {
+	nav {
+		display: none;
+	}
+	header {
+		justify-content: space-around;
+	}
+	header .hamburger {
+		display: block;
+	}
+	.sec-01 {
+		flex-direction: column;
+		height: 100%;
+	}
+	.sec-01 .img {
+		width: 100%;
+	}
+	.sec-01 .right {
+		width: 100%;
+		text-align: center;
+	}
+	.sec-01 .right h1 {
+		font-size: 35px;
+		padding: 0;
+	}
+
+	.sec-01 .input {
+		margin-top: 5vh;
+		padding: 0;
+		background-color: #ffffff;
+		width: 100%;
+	}
+	.sec-01 .input input {
+		border: none;
+		width: 70%;
+		height: 30px;
+		padding: 5px;
+		color: rgb(97 106 116);
+	}
+	.sec-02 {
+		margin: 0 auto;
+	}
+	.sec-02 h1 {
+		font-size: 30px;
+		width: 100%;
+	}
+	.sec-02 table {
+		width: 100%;
+		table-layout: fixed;
+	}
+	.sec-02 table th {
+		font-size: 20px;
+		padding: 15px;
+		margin: 10px;
+	}
+	.sec-02 table tr {
+		font-weight: 500;
+		padding: 5px;
+		margin: 5px;
+	}
+	.sec-02 table tr td {
+		font-size: 15px;
+		padding: 5px;
+		margin: 5px;
+	}
+	.sec-03 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.sec-03 .heading {
+		font-size: 35px;
+		width: 100%;
+		margin: 30px auto;
+		text-align: center;
+	}
+	.sec-03 .card {
+		flex-direction: column;
+		width: 100%;
+		padding: 0;
+	}
+	.sec-03 .card .left,
+	.sec-03 .card .right {
+		text-align: center;
+		width: 100%;
+	}
+	.sec-04 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.sec-04 .top {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 100%;
+		align-items: center;
+		text-align: center;
+	}
+	.sec-04 .top h1,
+	.sec-04 .top p {
+		margin: 5px;
+		width: 100%;
+	}
+	.sec-04 .bottom {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+	.sec-04 .bottom .card {
+		width: 100%;
+		margin: 0;
+	}
+	footer .head {
+		flex-direction: column;
+	}
+	footer .head .social-media {
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 10px;
+		margin-top: 20px;
+		width: 100%;
+	}
+	footer .content {
+		flex-wrap: wrap;
+	}
+	.green-btn {
+		margin: 0 auto;
+	}
+	.sec-04 .green-btn {
+		width: fit-content;
+		height: fit-content;
+		padding: 5px 40px;
+	}
+}
