@@ -3,6 +3,15 @@
 [Paytm Clone](./Paytm%20Clone/)
 </h3>
 
-![Project 1](./Paytm%20Clone/Paytm.JPG)
+![Paytm Clone](./Paytm%20Clone/Paytm.JPG)
+
+<br>
+
+<h3 align="center">
+
+[Rode Clone](./Rode%20Clone/)
+</h3>
+
+![Rode Clone](./Rode%20Clone/Road.JPG)
 
 <br>
