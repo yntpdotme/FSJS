@@ -15,3 +15,12 @@
 ![Rode Clone](./Rode%20Clone/Road.JPG)
 
 <br>
+
+<h3 align="center">
+
+[Shopify Clone](./Shopify%20Clone/)
+</h3>
+
+![Shopify Clone](./Shopify%20Clone/Shopify.PNG)
+
+<br>
