@@ -6,19 +6,19 @@ Create a variable.js file and declare variables and assign string, boolean, unde
 
 <br>
 
-### [Problem 2]()
+### [Problem 2](./Solutions/problem-2.js)
 
 Declare variables to store your first name, last name, marital status, country and age and display them using interploation method.
 
 <br>
 
-### [Problem 3]()
+### [Problem 3](./Solutions/problem-3.js)
 
 Decalre a varibale and assign value to it and change all the string characters to capital letters using toUpperCase() method.
 
 <br>
 
-### [Problem 4]()
+### [Problem 4](./Solutions/problem-4.js)
 
 Check if the string contains a word Script using includes() method.
 
