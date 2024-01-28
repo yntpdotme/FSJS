@@ -24,7 +24,7 @@ Check if the string contains a word Script using includes() method.
 
 <br>
 
-### [Problem 5]()
+### [Problem 5](./Solutions/problem-5.js)
 
 Split the string into an array using split() method
 
