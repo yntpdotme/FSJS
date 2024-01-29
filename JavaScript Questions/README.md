@@ -30,7 +30,7 @@ Split the string into an array using split() method
 
 <br>
 
-### [Problem 6]()
+### [Problem 6](./Solutions/problem-6.js)
 
 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon' split the string at the comma and change it to an array.
 
