@@ -36,7 +36,7 @@ Split the string into an array using split() method
 
 <br>
 
-### [Problem 7]()
+### [Problem 7](./Solutions/problem-7.js)
 
 Use lastIndexOf to determine the position of the last occurrence of a script.
 
