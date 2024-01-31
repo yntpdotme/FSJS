@@ -42,7 +42,7 @@ Use lastIndexOf to determine the position of the last occurrence of a script.
 
 <br>
 
-### [Problem 8]()
+### [Problem 8](./Solutions/problem-8.js)
 
 Use search to find the position of the first occurrence of the word because in the following sentence:'You cannot end a sentence with because because because is a conjunction'.
 
