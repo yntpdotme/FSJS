@@ -48,7 +48,7 @@ Use search to find the position of the first occurrence of the word because in t
 
 <br>
 
-### [Problem 9]()
+### [Problem 9](./Solutions/problem-9.js)
 
 Use trim() to remove any trailing whitespace at the beginning and the end of a string.
 
