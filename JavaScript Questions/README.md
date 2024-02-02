@@ -54,7 +54,7 @@ Use trim() to remove any trailing whitespace at the beginning and the end of a s
 
 <br>
 
-### [Problem 10]()
+### [Problem 10](./Solutions/problem-10.js)
 
 Boolean value is either true or false.
 
