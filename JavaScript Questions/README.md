@@ -63,7 +63,7 @@ Boolean value is either true or false.
 
 <br>
 
-### [Problem 11]()
+### [Problem 11](./Solutions/problem-11.js)
 
 Figure out the result of the following comparison expression first without using console.log(). After you decide the result confirm it using console.log()
 
