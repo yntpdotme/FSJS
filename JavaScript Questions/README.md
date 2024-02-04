@@ -82,7 +82,7 @@ Figure out the result of the following comparison expression first without using
 
 <br>
 
-### [Problem 12]()
+### [Problem 12](./Solutions/problem-12.js)
 
 Use the Date object to do the following activities
 
