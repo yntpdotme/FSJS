@@ -96,7 +96,7 @@ Use the Date object to do the following activities
 
 <br>
 
-### [Problem 13]()
+### [Problem 13](./Solutions/problem-13.js)
 
 Write a script that prompt the user to enter base and height of the triangle and calculate an area of a triangle (area = 0.5 _ b _ h).
 
