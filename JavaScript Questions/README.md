@@ -102,7 +102,7 @@ Write a script that prompt the user to enter base and height of the triangle and
 
 <br>
 
-### [Problem 14]()
+### [Problem 14](./Solutions/problem-14.js)
 
 Slope is m = (y2-y1)/(x2-x1). Find the slope between point (2, 2) and point(6,10)
 
