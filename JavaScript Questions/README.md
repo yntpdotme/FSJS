@@ -108,7 +108,7 @@ Slope is m = (y2-y1)/(x2-x1). Find the slope between point (2, 2) and point(6,10
 
 <br>
 
-### [Problem 15]()
+### [Problem 15](./Solutions/problem-15.js)
 
 Calculate the slope, x-intercept and y-intercept of y = 2x -2
 
