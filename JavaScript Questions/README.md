@@ -114,7 +114,7 @@ Calculate the slope, x-intercept and y-intercept of y = 2x -2
 
 <br>
 
-### [Problem 16]()
+### [Problem 16](./Solutions/problem-16.js)
 
 Get radius using prompt and calculate the area of a circle (area = pi x r x r) and circumference of a circle(c = 2 x pi x r) where pi = 3.14.
 
