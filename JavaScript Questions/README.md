@@ -120,7 +120,7 @@ Get radius using prompt and calculate the area of a circle (area = pi x r x r) a
 
 <br>
 
-### [Problem 17]()
+### [Problem 17](./Solutions/problem-17.js)
 
 Create a human readable time format using the Date time object
 
