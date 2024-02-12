@@ -142,7 +142,7 @@ Even numbers are divisible by 2 and the remainder is zero. How do you check, if 
 
 <br>
 
-### [Problem 20]()
+### [Problem 20](./Solutions/problem-20.js)
 
 Write a code which can give grades to students according to theirs scores:
 
