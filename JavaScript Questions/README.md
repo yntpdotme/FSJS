@@ -154,7 +154,7 @@ Write a code which can give grades to students according to theirs scores:
 
 <br>
 
-### [Problem 21]()
+### [Problem 21](./Solutions/problem-21.js)
 
 Check if the season is Autumn, Winter, Spring or Summer. If the user input is :
 
