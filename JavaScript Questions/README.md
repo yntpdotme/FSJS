@@ -165,7 +165,7 @@ Check if the season is Autumn, Winter, Spring or Summer. If the user input is :
 
 <br>
 
-### [Problem 22]()
+### [Problem 22](./Solutions/problem-22.js)
 
 Write a program which tells the number of days in a month.
 
