@@ -171,7 +171,7 @@ Write a program which tells the number of days in a month.
 
 <br>
 
-### [Problem 23]()
+### [Problem 23](./Solutions/problem-23.js)
 
 Write a program which tells the number of days in a month, now consider leap year.
 
