@@ -177,7 +177,7 @@ Write a program which tells the number of days in a month, now consider leap yea
 
 <br>
 
-### [Problem 24]()
+### [Problem 24](./Solutions/problem-24/main.js)
 
 Create a separate countries.js file and store the countries array in to this file, create a separate file web_techs.js and store the webTechs array in to this file. Access both file in main.js file
 
