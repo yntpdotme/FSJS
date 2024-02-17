@@ -183,7 +183,7 @@ Create a separate countries.js file and store the countries array in to this fil
 
 <br>
 
-### [Problem 25]()
+### [Problem 25](./Solutions/problem-25.js)
 
 In the following shopping cart add, remove, edit items
 => const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey']
