@@ -195,7 +195,7 @@ In the following shopping cart add, remove, edit items
 
 <br>
 
-### [Problem 26]()
+### [Problem 26](./Solutions/problem-26.js)
 
 In countries array check if 'Ethiopia' exists in the array if it exists print 'ETHIOPIA'. If it does not exist add to the countries list.
 
