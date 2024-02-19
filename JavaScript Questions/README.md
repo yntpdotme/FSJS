@@ -201,7 +201,7 @@ In countries array check if 'Ethiopia' exists in the array if it exists print 'E
 
 <br>
 
-### [Problem 27]()
+### [Problem 27](./Solutions/problem-27.js)
 
 The following is an array of 10 students ages:
 => const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
