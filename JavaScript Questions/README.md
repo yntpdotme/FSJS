@@ -220,7 +220,7 @@ Use for loop to iterate from 0 to 100 and print only prime numbers
 
 <br>
 
-### [Problem 29]()
+### [Problem 29](./Solutions/problem-29.js)
 
 Use for loop to iterate from 0 to 100 and print the sum of all evens and the sum of all odds.
 
