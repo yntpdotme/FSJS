@@ -214,7 +214,7 @@ The following is an array of 10 students ages:
 
 <br>
 
-### [Problem 28]()
+### [Problem 28](./Solutions/problem-28.js)
 
 Use for loop to iterate from 0 to 100 and print only prime numbers
 
