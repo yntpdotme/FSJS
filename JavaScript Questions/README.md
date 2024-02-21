@@ -226,7 +226,7 @@ Use for loop to iterate from 0 to 100 and print the sum of all evens and the sum
 
 <br>
 
-### [Problem 30]()
+### [Problem 30](./Solutions/problem-30.js)
 
 Write a script which generates a random hexadecimal number.
 
