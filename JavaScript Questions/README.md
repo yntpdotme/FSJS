@@ -232,7 +232,7 @@ Write a script which generates a random hexadecimal number.
 
 <br>
 
-### [Problem 31]()
+### [Problem 31](./Solutions/problem-31.js)
 
 Sort the webTechs array and mernStack array
 // countries Array : https://gist.github.com/incredimike/1469814
