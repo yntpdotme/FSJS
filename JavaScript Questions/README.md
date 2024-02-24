@@ -239,7 +239,7 @@ Sort the webTechs array and mernStack array
 
 <br>
 
-### [Problem 32]()
+### [Problem 32](./Solutions/problem-32.js)
 
 Array Questions
 
