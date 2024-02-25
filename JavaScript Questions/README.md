@@ -252,7 +252,7 @@ Array Questions
 
 <br>
 
-### [Problem 33]()
+### [Problem 33](./Solutions/problem-33.js)
 
 Body mass index(BMI) is calculated as follows: bmi = weight in Kg / (height x height) in m2. Write a function which calculates bmi. BMI is used to broadly define different weight groups in adults 20 years old or older.Check if a person is underweight, normal, overweight or obese based the information given below.
 
