@@ -264,7 +264,7 @@ Body mass index(BMI) is calculated as follows: bmi = weight in Kg / (height x he
 
 <br>
 
-### [Problem 34]()
+### [Problem 34](./Solutions/problem-34.js)
 
 Linear equation is calculated as follows: ax + by + c = 0. Write a function which calculates value of a linear equation, solveLinEquation.
 
