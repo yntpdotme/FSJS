@@ -270,6 +270,6 @@ Linear equation is calculated as follows: ax + by + c = 0. Write a function whic
 
 <br>
 
-### [Problem 35]()
+### [Problem 35](./Solutions/problem-35.js)
 
 Write a functions which checks if all items are unique in the array.
