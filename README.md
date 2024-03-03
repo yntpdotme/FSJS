@@ -7,3 +7,5 @@
 - ### [Tailwind-CSS Projects](./Tailwind-CSS%20Projects)
 
 - ### [JavaScript Questions](./JavaScript%20Questions/)
+
+- ### [DOM Assignments](./DOM%20Assignments/)
