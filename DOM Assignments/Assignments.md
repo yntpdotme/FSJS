@@ -45,7 +45,11 @@ document.querySelector(".side-bar .crayons-card .color-base-70").innerHTML = "I 
 ### Solution:-
 
 ```javascript
-
+let itemArray = [];
+let itemList = document.querySelectorAll(".as-imagegrid-item-title");
+for (let name of list) {
+	itemsArray.push(name.innerText);
+}
 ```
 
 <br>
