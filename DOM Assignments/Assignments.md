@@ -75,7 +75,14 @@ for (let name of list) {
 ### Solution:-
 
 ```javascript
+let faq = document.querySelector(".accordion-homepage");
+let newFaq = document.createElement("h3");
+newFaq.innerHTML = "My New FAQ";
+let section = document.createElement("section");
+section.classList.add("faq");
 
+section.appendChild(newFaq);
+parent.appendChild(section);
 ```
 
 <br>
