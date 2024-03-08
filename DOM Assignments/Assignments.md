@@ -21,9 +21,12 @@
 ### Solution:-
 
 ```javascript
-document.querySelector(".side-bar .crayons-card .crayons-subtitle-2").innerHTML = "iNeuron";
+document.querySelector(
+	'.side-bar .crayons-card .crayons-subtitle-2'
+).innerHTML = 'iNeuron';
 
-document.querySelector(".side-bar .crayons-card .color-base-70").innerHTML = "I Write Code";
+document.querySelector('.side-bar .crayons-card .color-base-70').innerHTML =
+	'I Write Code';
 ```
 
 <br>
@@ -46,7 +49,7 @@ document.querySelector(".side-bar .crayons-card .color-base-70").innerHTML = "I 
 
 ```javascript
 let itemArray = [];
-let itemList = document.querySelectorAll(".as-imagegrid-item-title");
+let itemList = document.querySelectorAll('.as-imagegrid-item-title');
 for (let name of list) {
 	itemsArray.push(name.innerText);
 }
@@ -75,11 +78,11 @@ for (let name of list) {
 ### Solution:-
 
 ```javascript
-let faq = document.querySelector(".accordion-homepage");
-let newFaq = document.createElement("h3");
-newFaq.innerHTML = "My New FAQ";
-let section = document.createElement("section");
-section.classList.add("faq");
+let faq = document.querySelector('.accordion-homepage');
+let newFaq = document.createElement('h3');
+newFaq.innerHTML = 'My New FAQ';
+let section = document.createElement('section');
+section.classList.add('faq');
 
 section.appendChild(newFaq);
 parent.appendChild(section);
@@ -108,7 +111,8 @@ parent.appendChild(section);
 ### Solution:-
 
 ```javascript
-document.querySelector(".customer-support .one-tel-number").innerText = "+91-6366256689";
+document.querySelector('.customer-support .one-tel-number').innerText =
+	'+91-6366256689';
 ```
 
 <br>
@@ -134,7 +138,14 @@ document.querySelector(".customer-support .one-tel-number").innerText = "+91-636
 ### Solution:-
 
 ```javascript
-
+let anchorTag = document.querySelector('.diwali-deals-product-sale-btn');
+let new_anchorTag = document.createElement('a');
+document.querySelector('.diwali-deals-product-sale-pro').removeChild(anchorTag);
+new_anchorTag.classList.add('diwali-deals-product-sale-btn');
+new_anchorTag.innerText = 'Checkout';
+document
+	.querySelector('.diwali-deals-product-sale-pro')
+	.appendChild(new_anchorTag);
 ```
 
 <br>
