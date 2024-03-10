@@ -8,4 +8,4 @@
 
 - ### [JavaScript Questions](./JavaScript%20Questions/)
 
-- ### [DOM Assignments](./DOM%20Assignments/)
+- ### [DOM Assignments](./DOM%20Assignments/Assignments.md)
