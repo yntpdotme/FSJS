@@ -111,8 +111,7 @@ parent.appendChild(section);
 ### Solution:-
 
 ```javascript
-document.querySelector('.customer-support .one-tel-number').innerText =
-	'+91-6366256689';
+document.querySelector('.customer-support .one-tel-number').innerText ='+91-6366256689';
 ```
 
 <br>
@@ -121,7 +120,7 @@ document.querySelector('.customer-support .one-tel-number').innerText =
 
 #### Topics
 
-       getElementById, createElement, InnerText, append, setAttribute
+    getElementById, createElement, InnerText, append, setAttribute
 
 #### Sample Image
 
@@ -129,7 +128,7 @@ document.querySelector('.customer-support .one-tel-number').innerText =
 
 #### Tasks
 
-     Target the main div of card and change the Button text to Check out
+    Target the main div of card and change the Button text to Check out
 
 #### Output
 
@@ -173,7 +172,7 @@ document
 ```javascript
 let SearchBar = document.querySelector(".searchinput___19uW0");
 searchBar.addEventListener("mouseover", () => {
-	searchBox.style.backgroundColor = "#880808";
+    searchBox.style.backgroundColor = "#880808";
 });
 ```
 
@@ -201,7 +200,7 @@ searchBar.addEventListener("mouseover", () => {
 ### Solution:-
 
 ```javascript
-
+document.querySelector("#top-nav-search-input").value = "CSS Selector";
 ```
 
 <br>
