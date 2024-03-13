@@ -226,7 +226,20 @@ document.querySelector("#top-nav-search-input").value = "CSS Selector";
 ### Solution:-
 
 ```javascript
-
+let langs = document.querySelectorAll("#SIvCob a");
+let newlangs = [];
+for (let i = 0; i < langs.length; i++) {
+	if (i % 2 != 0) {
+		newlangs.push(langs[i]);
+	}
+}
+let langsDiv = document.querySelector("#SIvCob");
+for (let j = 0; j < langs.length; j++) {
+	langsDiv.removeChild(langs[j]);
+}
+for (let j = 0; j < newlangs.length; j++) {
+	langsDiv.appendChild(newlangs[j]);
+}
 ```
 
 <br>
