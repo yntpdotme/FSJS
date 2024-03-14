@@ -265,7 +265,7 @@ for (let j = 0; j < newlangs.length; j++) {
 ### Solution:-
 
 ```javascript
-
+document.querySelector(".display-heading-1").style.cssText = "color:red;font-family:monospace";
 ```
 
 <br>
