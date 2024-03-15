@@ -291,7 +291,10 @@ document.querySelector(".display-heading-1").style.cssText = "color:red;font-fam
 ### Solution:-
 
 ```javascript
-
+const btn = document.querySelector("[data-test-label=landing-big-cta]");
+btn.addEventListener("mouseover", () => {
+	document.querySelector("[data-test-label=landing-big-cta] .login-btn-text").style.backgroundColor="red";
+});
 ```
 
 <br>
