@@ -320,7 +320,9 @@ btn.addEventListener("mouseover", () => {
 ### Solution:-
 
 ```javascript
-
+const container = document.querySelector(".header .wrapper .logo");
+container.innerHTML = `<img src="https://ineuron.ai/images/ineuron-logo.png" style="width: 80px;
+height: 24px" >`;
 ```
 
 <br>
