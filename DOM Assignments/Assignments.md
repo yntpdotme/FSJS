@@ -348,7 +348,7 @@ height: 24px" >`;
 ### Solution:-
 
 ```javascript
-
+document.querySelector(".btn-primary").style.backgroundColor = "blue";
 ```
 
 <br>
