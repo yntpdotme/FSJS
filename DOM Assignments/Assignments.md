@@ -374,7 +374,7 @@ document.querySelector(".btn-primary").style.backgroundColor = "blue";
 ### Solution:-
 
 ```javascript
-
+document.querySelector(".fl-heading-text").innerText = "JSBOOTCAMP";
 ```
 
 <br>
