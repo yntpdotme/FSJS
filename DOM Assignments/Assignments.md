@@ -400,7 +400,7 @@ document.querySelector(".fl-heading-text").innerText = "JSBOOTCAMP";
 ### Solution:-
 
 ```javascript
-
+document.querySelector(".HotDealsAll__Heading__2fIbe").style.fontSize = "80px";
 ```
 
 <br>
