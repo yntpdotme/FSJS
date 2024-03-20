@@ -426,7 +426,7 @@ document.querySelector(".HotDealsAll__Heading__2fIbe").style.fontSize = "80px";
 ### Solution:-
 
 ```javascript
-
+document.querySelector(".ps-title").style.cssText = "text-align:end";
 ```
 
 <br>
