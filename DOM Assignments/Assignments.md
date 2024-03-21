@@ -452,7 +452,7 @@ document.querySelector(".ps-title").style.cssText = "text-align:end";
 ### Solution:-
 
 ```javascript
-
+document.querySelector(".section-title_title__VEDfK").innerText = "Start with Scratch";
 ```
 
 <br>
