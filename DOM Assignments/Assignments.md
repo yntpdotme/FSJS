@@ -478,7 +478,8 @@ document.querySelector(".section-title_title__VEDfK").innerText = "Start with Sc
 ### Solution:-
 
 ```javascript
-
+const date = new Date();
+document.querySelector(".btn-container").innerHTML = date.toUTCString();
 ```
 
 <br>
