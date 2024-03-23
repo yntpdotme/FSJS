@@ -505,7 +505,9 @@ document.querySelector(".btn-container").innerHTML = date.toUTCString();
 ### Solution:-
 
 ```javascript
-
+document.querySelector(
+	".p-f03-footer-container .p-footer"
+).style.backgroundColor = "orange";
 ```
 
 <br>
