@@ -533,7 +533,7 @@ document.querySelector(
 ### Solution:-
 
 ```javascript
-
+document.querySelector(".navbar-brand img").src;
 ```
 
 <br>
