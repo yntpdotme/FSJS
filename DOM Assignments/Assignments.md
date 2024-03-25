@@ -559,7 +559,7 @@ document.querySelector(".navbar-brand img").src;
 ### Solution:-
 
 ```javascript
-
+document.querySelector(".product-card-content .wide .desc").style.color = "orange";
 ```
 
 <br>
