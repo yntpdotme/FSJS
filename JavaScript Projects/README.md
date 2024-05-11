@@ -8,3 +8,5 @@
 ### [4. Jokes Generator](./JokesGenerator/)
 
 ### [5. Name Conversion](./NameConversion/)
+
+### [6. Rock Paper Scissor](./RockPaperScissor/)
