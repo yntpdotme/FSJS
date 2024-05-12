@@ -1,0 +1,26 @@
+form {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin: 10px auto;
+  gap: 1rem;
+}
+
+.error {
+  color: #ff4e4e;
+  font-size: 1rem;
+  margin: 0;
+  margin-bottom: 0.5rem;
+  text-align: left;
+  margin-left: 5px;
+}
+
+.error-bottom {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+form > button{
+  margin-top: 5px;
+}

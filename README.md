@@ -11,3 +11,5 @@
 - ### [DOM Assignments](./DOM%20Assignments/Assignments.md)
 
 - ### [JavaScript Projects](./JavaScript%20Projects/README.md)
+
+- ### [Full Fledge Application](./Full%20Fledge%20Application/)

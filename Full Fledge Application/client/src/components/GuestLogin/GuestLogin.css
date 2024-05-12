@@ -1,0 +1,8 @@
+.guest {
+  background: transparent;
+  color: #fff;
+}
+
+.guest:hover {
+  background: #111;
+}

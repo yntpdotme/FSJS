@@ -1,0 +1,21 @@
+.footer {
+  font-size: 1.2rem;
+}
+
+.signin {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.authform {
+  width: 350px;
+  margin: auto;
+}
+
+@media screen and (max-width: 480px) {
+  .authform {
+    width: 300px;
+    margin: 0 5px;
+  }
+}
